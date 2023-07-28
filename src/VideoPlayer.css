@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.video-player {
+  width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-top: 50px;
+}
+
+.play-button {
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px 0 5px 5px;
+}
+
+.play-button:hover {
+  background-color: #0056b3;
+}
+
+.play-button:focus {
+  outline: none;
+}
